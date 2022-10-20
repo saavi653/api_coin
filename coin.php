@@ -51,7 +51,7 @@
             header("location:index.php");
         }    
     }
-    if(!empty($buy))
+    if(!empty($sell))
     {
         $coin=$con->query("select coins from commerce where user_id='$user_id' and coin_id='$coin_id'");
         $coin=$coin->fetch();
