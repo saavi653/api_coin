@@ -88,8 +88,8 @@ $con = new controller();
                 <tr>
                     <td>Methodology</td>
                     <td>Terms of Service</td>
-                    <td><img id="fb" src="facebook.png">
-                    <img id="twitter" src="twitter1.jpg"></td>
+                    <td><img id="fb" src="image/facebook.png">
+                    <img id="twitter" src="image/twitter1.jpg"></td>
                     <td><a href="https://play.google.com/store/apps/details?id=io.coinCap.coinCap"><img src="img1.png"></a></td>
                 </tr>
                 <tr>

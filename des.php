@@ -25,7 +25,7 @@ if (isset($_GET['name']))
 <body>
     <div class=container>
         <header>
-            <img id=img src="img.svg" width=10% ;height=10%>
+            <img id=img src="image/img.svg" width=10% ;height=10%>
             <?php
                 if(isset($_SESSION['login'])) 
                 {?>
@@ -57,7 +57,7 @@ if (isset($_GET['name']))
             </div>
         </div>
         <form action="" method="post">
-            <div class="graph"><img src="graph.png" width="800px" height="500px"></div>
+            <div class="graph"><img src="image/graph.png" width="800px" height="500px"></div>
             <div id="sell">
                 <div class="btn1"><input type="text" name="b_coin">
                 <input type="submit" name="buy" value="BUY"></div>
@@ -112,8 +112,8 @@ if (isset($_GET['name']))
                 <tr>
                     <td>Methodology</td>
                     <td>Terms of Service</td>
-                    <td><img id="fb" src="facebook.png">
-                    <img id="twitter" src="twitter1.jpg"></td>
+                    <td><img id="fb" src="image/facebook.png">
+                    <img id="twitter" src="image/twitter1.jpg"></td>
                     <td><a href="https://play.google.com/store/apps/details?id=io.coinCap.coinCap"><img src="img1.png"></a></td>
                 </tr>
                 <tr>
